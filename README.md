@@ -1,6 +1,6 @@
 # VCU108 Support for Chipyard FPGA Prototyping
 
-增加 Chipyard 中对 VCU108 开发板的支持，以走 FPGA Prototyping 的流程
+> 增加 Chipyard 中对 VCU108 开发板的支持，以走 FPGA Prototyping 的流程。
 
 Chipyard 原本仅支持 VCU118 和 arty。为了增加对其它开发板的支持，以 VCU108 开发板为例，需要修改或添加以下文件：
 1. 修改 Makefile (`chipyard/fpga/Makefile`)，增加 `SUB_PROJECT` 对 VCU108 的匹配；
